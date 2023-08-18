@@ -1,0 +1,118 @@
+user@Maru MINGW64 ~/Desktop
+$ mkdir Checkpoint-MariaRoldan/
+
+user@Maru MINGW64 ~/Desktop
+$ cd Checkpoint-MariaRoldan/
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan
+$ git init
+Initialized empty Git repository in C:/Users/user/Desktop/
+/.git/
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ git remote add origin https://github.com/MaruRoldan8/Chet
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ touch main.js index.html
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ git add .
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ git commit -m "Commit 01 MariaDeLosARoldan"
+[main (root-commit) 3fba018] Commit 01 MariaDeLosARoldan
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 244 bytes | 244.00 KiB/s, don
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MaruRoldan8/Checkpoint-MariaRoldan.g
+ * [new branch]      main -> main
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ git branch feature
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (featur
+$ mkdir hardware software seguridadInformatica
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (featur
+$ cd hardware/
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan/hardwar
+$ touch resumen.txt
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan/hardwar
+$ cd software/
+bash: cd: software/: No such file or directory
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan/hardwar
+$ cd ../software
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan/softwar
+$ touch resumen.txt
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan/softwar
+$ cd ../seguridadInformatica
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan/segurid)
+$ touch resumen.txt
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan/segurid)
+$ cd ../
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (featur
+$ git add .
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (featur
+$ git commit -m "Commit 02 MariaDeLosARoldan"
+[feature 7277ae9] Commit 02 MariaDeLosARoldan
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hardware/resumen.txt
+ create mode 100644 seguridadInformatica/resumen.txt
+ create mode 100644 software/resumen.txt
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (featur
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 383 bytes | 383.00 KiB/s, don
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by v
+remote:      https://github.com/MaruRoldan8/Checkpoint-Mar
+ure
+remote:
+To https://github.com/MaruRoldan8/Checkpoint-MariaRoldan.g
+ * [new branch]      feature -> feature
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (featur
+$ git checkout main
+Switched to branch 'main'
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ mv ./main.js ./resumenHardware.tx
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ mv ./index.html ./resumenSoftware.tx
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ code .
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ touch comandos.txt
+
+user@Maru MINGW64 ~/Desktop/Checkpoint-MariaRoldan (main)
+$ code .
